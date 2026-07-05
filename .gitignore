@@ -1,0 +1,11 @@
+CT-RATE/
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+*.pt
+*.pth
+*.npz
+outputs/
+cache/

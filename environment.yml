@@ -1,0 +1,30 @@
+name: ctvit-val
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch==2.1.2
+    - torchvision==0.16.2
+    - --extra-index-url https://download.pytorch.org/whl/cu118
+    - numpy
+    - nibabel
+    - pydicom
+    - SimpleITK
+    - einops
+    - transformers
+    - timm
+    - scipy
+    - scikit-image
+    - pandas
+    - tqdm
+    - h5py
+    - tensorboard
+    - matplotlib
+    - vector-quantize-pytorch
+    - accelerate
+    - openpyxl
